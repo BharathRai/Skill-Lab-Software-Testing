@@ -1,1 +1,0 @@
-# Skill-Lab-Software-Testing-

@@ -3,7 +3,7 @@ from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 
 app = FastAPI()
-#app.moun("/assets",StaticFiles(directory="assets"),name="assetes")
+app.mount("/assets",StaticFiles(directory="assets"),name="assetes")
 
 def profile_html():
 	with open("templates/index.html","r") as html_file:
